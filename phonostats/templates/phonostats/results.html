@@ -1,0 +1,24 @@
+{% extends "phonostats/index.html" %}
+
+{% block content %}
+ 
+<table>
+	<thead>
+		<tr>
+		<th>Segment String</th>
+		<th>Neighbourhood density</th>
+		<th>BLICK score</th>
+		<th>Single- and bi-phone probability</th>
+		</tr>
+	</thead>
+    	<tbody>
+		<tr>
+		<th>{{ segments }}</th>
+		<th>{{ neigh_den }}</th>
+		<th>{{ blick }}</th>
+		<th>{{ phone_probs }}</th>
+		</tr>
+	</tbody>
+</table>
+ 
+{% endblock content %}

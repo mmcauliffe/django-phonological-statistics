@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+
+{% block title %}{{block.super}} - Phonological statistics{% endblock %}
+
+{% block menu %}{{ block.super }}
+<ul>
+
+<li><a href="{% url phonostats.views.index %}">Index</a> </li>
+<span class="sep">|</span>
+<li><a href="{% url phonostats.views.reset %}">Reset</a></li>
+<span class="sep">|</span>
+<li><a href="{% url phonostats.views.analyze %}">Analyze</a></li>
+
+</ul>{% endblock %}
