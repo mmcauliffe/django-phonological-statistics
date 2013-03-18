@@ -9,7 +9,7 @@ template_patterns = [
 
 setup(
     name='django-phonological-statistics',
-    version='0.1.10',
+    version='0.1.20',
     author='Michael McAuliffe',
     author_email='michael.e.mcauliffe@gmail.com',
     url='http://pypi.python.org/pypi/django-phonological-statistics/',

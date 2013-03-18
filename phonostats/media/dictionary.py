@@ -1,5 +1,5 @@
 
-word_list = ['EY1',
+word_list = set(['EY1',
 'AH0 B AE1 K',
 'AE1 B AH0 K AH0 S',
 'AH0 B AE1 N D AH0 N',
@@ -18032,7 +18032,7 @@ word_list = ['EY1',
 'Z OW0 AA1 L AH0 JH AH0 S T',
 'Z OW0 AA1 L AH0 JH IY0',
 'Z UW1 M',
-'Z UW0 K IY1 N IY0']
+'Z UW0 K IY1 N IY0'])
 
 if __name__ == '__main__':
     print word_list[-50:]
